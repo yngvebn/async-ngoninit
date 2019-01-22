@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { MyAsyncService } from 'src/app/my-async-component/my-async.service';
+import { MyAsyncService } from './my-async.service';
 
 @Component({
   selector: 'app-my-async-component',
